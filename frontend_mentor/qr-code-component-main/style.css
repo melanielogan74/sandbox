@@ -15,42 +15,49 @@ box-sizing: border-box;
 body {
     font-family: Outfit, sans-serif;
     font-weight: 400;
+    font-size: 15px;
     background-color: hsl(212, 45%, 89%); 
     color: hsl(216, 15%, 48%);
+    margin: auto;
+    width: 1440px;
+    padding: 140px 0 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-align: center;
     color: hsl(218, 44%, 22%);
-    margin: 20px 30px;
+    margin: 0px 30px 20px 30px;
 }
 
 p {
     font-size: 15px;
     text-align: center;
     color: hsl(216, 15%, 48%);
+    margin: 0px 50px;
 }
 
 /* Size and center the QR image */
 img {
-    padding: inherit;
     border-radius: 25px;
-    margin:auto;
     width: 300px;
-    display: block;
+    margin: 20px;
   }
 
   /* Style the container for the QR code and instructions */
 .container {
-  background: hsl(0, 0%, 100%);
-  border-radius: 25px;
-  padding: 15px;
-  width: 330px;
-  height: 500px; 
+    background: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    width: 340px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    box-shadow: 0 25px 20px -2px rgba(0, 0, 0, 0.2); 
 }
 
+/* Credit to Frontend Mentor and the developer */
 .attribution {
     color: hsl(216, 15%, 48%);
-    font-size: 16px;
+    padding: 40px 0 0 0;
+    font-size: 10px;
 }
