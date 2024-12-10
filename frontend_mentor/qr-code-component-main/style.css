@@ -34,13 +34,18 @@ p {
 /* Size and center the QR image */
 img {
     padding: inherit;
+    border-radius: 25px;
     margin:auto;
-    width: 200px;
+    width: 300px;
     display: block;
   }
 
   /* Style the container for the QR code and instructions */
 .container {
-  background-color hsl(0, 0%, 100%): 
+  background: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  padding: 15px;
+  width: 330px;
+  height: 500px; 
 }
 
