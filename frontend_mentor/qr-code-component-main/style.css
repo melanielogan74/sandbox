@@ -15,7 +15,7 @@ box-sizing: border-box;
 body {
     font-family: Outfit, sans-serif;
     font-weight: 400;
-    background-color: hsl(0, 0%, 100%); 
+    background-color: lightblue; 
     color: hsl(212, 45%, 89%);
 }
 
@@ -38,3 +38,9 @@ img {
     width: 200px;
     display: block;
   }
+
+  /* Style the container for the QR code and instructions */
+.container {
+  background-color hsl(0, 0%, 100%): 
+}
+
