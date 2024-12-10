@@ -1,0 +1,19 @@
+/* Reset CSS to clear anything the browser automatically sets */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Universal section to set default values for parts of the web page */
+body {
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+p {
+    font-size: 15px;
+}
