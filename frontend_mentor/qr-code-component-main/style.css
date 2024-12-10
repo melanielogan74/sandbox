@@ -6,12 +6,18 @@ box-sizing: border-box;
 }
 
 /* Universal section to set default values for parts of the web page */
+
+@font-face {
+	font-family: Outfit;
+    src: url("https://fonts.google.com/specimen/Outfit");
+}
+
 body {
-    
+    font-weight: 400;  
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-weight: 700;
 }
 
 p {
