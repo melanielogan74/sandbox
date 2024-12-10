@@ -30,3 +30,11 @@ p {
     text-align: center;
     color: hsl(216, 15%, 48%);
 }
+
+/* Size and center the QR image */
+img {
+    padding: inherit;
+    margin:auto;
+    width: 200px;
+    display: block;
+  }
