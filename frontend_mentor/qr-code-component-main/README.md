@@ -20,9 +20,8 @@ Below are screenshots of my solution for desktop and mobile.
 
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:(https://melanielogan74. .io/sandbox/frontend_mentor/qr-code-component-main/)
 
 ### Built with
-
 - HTML
 - CSS
