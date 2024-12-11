@@ -20,7 +20,7 @@ Below are screenshots of my solution for desktop and mobile.
 
 
 ### Links
-- Solution URL:(https://melanielogan74. .io/sandbox/frontend_mentor/qr-code-component-main/)
+- Solution URL:(https://melanielogan74.github.io/sandbox/frontend_mentor/qr-code-component-main/)
 
 ### Built with
 - HTML
