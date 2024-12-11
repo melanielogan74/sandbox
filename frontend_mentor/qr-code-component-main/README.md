@@ -11,6 +11,8 @@
 ## Overview
 This challenge uses HTML and CSS to build a QR code component that looks as closely to the example design as possible. 
 
+Files for this particular project can be found in the sandbox repo under frontend_mentor/qr-code-component-main
+
 ### Screenshot
 Below are screenshots of my solution for desktop and mobile.
 
