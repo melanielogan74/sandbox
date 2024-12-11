@@ -14,9 +14,9 @@ This challenge uses HTML and CSS to build a QR code component that looks as clos
 ### Screenshot
 Below are screenshots of my solution for desktop and mobile.
 
-![Desktop View Screenshot] (https://raw.githubusercontent.com/melanielogan74/sandbox/frontend_mentor/qr-code-component-main/main/images/desktop-view-screenshot.png)
+![Desktop View Screenshot] (https://raw.githubusercontent.com/melanielogan74/sandbox/frontend_mentor/qr-code-component-main/images/desktop-view-screenshot.png)
 
-![Mobile View Screenshot] (https://raw.githubusercontent.com/melanielogan74/sandbox/frontend_mentor/qr-code-component-main/main/images/mobile-view-screenshot.png)
+![Mobile View Screenshot] (https://raw.githubusercontent.com/melanielogan74/sandbox/frontend_mentor/qr-code-component-main/images/mobile-view-screenshot.png)
 
 
 ### Links
