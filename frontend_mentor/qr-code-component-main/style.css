@@ -64,9 +64,10 @@ img {
 
 /* Credit to Frontend Mentor and the developer */
 .attribution {
-    color: hsl(216, 15%, 48%);
+    color:  hsl(228, 45%, 44%);
     padding: 40px 0 0 0;
-    font-size: 10px;
+    font-size: 14px;
+    text-align: center; 
 }
 
 /* Mobile version */
