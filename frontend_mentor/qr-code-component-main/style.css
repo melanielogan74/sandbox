@@ -45,14 +45,14 @@ img {
   }
 
   /* Background for container */
-.container-background {
+.flex-container {
     background-color: hsl(212, 45%, 89%); 
     height: 775px;
     padding: 130px 0 0 0;
 }
 
   /* Style the container for the QR code and instructions */
-.container {
+.flex-items {
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     width: 340px;
@@ -63,10 +63,10 @@ img {
 }
 
 /* Credit to Frontend Mentor and the developer */
-.attribution {
+footer {
     color:  hsl(228, 45%, 44%);
     padding: 40px 0 0 0;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center; 
 }
 
