@@ -1,100 +1,80 @@
+/* Font applied to page */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 /* Reset CSS to clear anything the browser automatically sets */
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Universal section to set default values for parts of the web page */
-
-@font-face {
-	font-family: Outfit;
-    src: url("https://fonts.google.com/specimen/Outfit");
-}
-
+/* Universal section to set default values for web page and set flex */
 body {
-    font-family: Outfit, sans-serif;
+    font-family: Outfit, san-serif;
     font-weight: 400;
-    font-size: 15px;
-    background-color: hsl(0, 0%, 100%);
+    font-size: 0.9375rem;
+    background-color: hsl(212, 45%, 89%);
     color: hsl(216, 15%, 48%);
-    margin: auto;
-    width: 1440px;
-    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10.9375rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-align: center;
     color: hsl(218, 44%, 22%);
-    margin: 0px 30px 20px 30px;
+    margin: 0 1.5625rem 0 1.5625rem;
+}
+
+  /* Flexbox container and items for QR code and instructions */
+.flex-container {
+    background-color: hsl(0, 0%, 100%); 
+    width: 340px;
+    height: 520px;
+    border-radius: 25px;
+    box-shadow: 0 25px 20px -2px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    margin: 5%;
+    border-radius: 12.5px;
+    width: 90%;
 }
 
 p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-align: center;
     color: hsl(216, 15%, 48%);
-    margin: 0px 50px;
+    margin: 1.25rem 2.5rem;
 }
 
-/* Size and center the QR image */
-img {
-    border-radius: 25px;
-    width: 300px;
-    margin: 20px;
-  }
-
-  /* Background for container */
-.flex-container {
-    background-color: hsl(212, 45%, 89%); 
-    height: 775px;
-    padding: 130px 0 0 0;
-}
-
-  /* Style the container for the QR code and instructions */
-.flex-items {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 25px;
-    width: 340px;
-    height: 500px;
-    margin: auto;
-    display: block;
-    box-shadow: 0 25px 20px -2px rgba(0, 0, 0, 0.2); 
-}
-
-/* Credit to Frontend Mentor and the developer */
+/* Attribution for challenge and developer */
 footer {
     color:  hsl(228, 45%, 44%);
-    padding: 40px 0 0 0;
-    font-size: 14px;
-    text-align: center; 
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 10rem;
+    
 }
 
 /* Mobile version */
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 375px) {
+      
     body {
-        width: 375px;
-        margin: auto;
-    }
-
-   img {
-        width: 200px;
-     }
-
-    .container-background {
-        width: 300px;
-        height: 750px;
-        margin: 30px;
-    }
-
-    .container {
-        width: 250px;
-        height: 500px;
-        margin: auto;
+        font-size: 1rem;
         
     }
 
-    .attribution {
-        padding: 0;
+    p {
+        font-size: 4rem;
+    }
+
+    footer {
+        font-size: 12px;
+        margin-top: 10px;
+        
     }
 }
