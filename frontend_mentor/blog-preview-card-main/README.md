@@ -7,7 +7,7 @@
   - [Links](#links)
   - [Built with](#built-with)
  
-***TESTING***
+
 ## Overview
 This challenge uses HTML and CSS to build a QR code component that looks as closely to the example design as possible. 
 
