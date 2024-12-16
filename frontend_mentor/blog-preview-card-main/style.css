@@ -1,8 +1,16 @@
 <<<<<<< HEAD
-/* Reset CSS */
+/* Page font */
+@import url('@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500..800;1,500..800&display=swap');');
 
-/* Universal Styling */
-body {
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* R */
+
+:root {
     background-color: yellow;
 }
 
