@@ -18,7 +18,7 @@
     --color-blue: hsl(228, 45%, 44%);
 }
 
-/* ??? */
+/* Style the body */
 body {
     background-color: var(--color-yellow);
     color: var(--color-dkgray);
@@ -26,10 +26,7 @@ body {
    
 }
 
-/*TROUBLING INCREASING THE HEIGHT OF THE CARD. BECAUSE FLEXBOX IS USED,
-IF I INCREASE THE HEIGHT, THE TOP POSITIONING IS OFF FOR EVERYTHING */
 /* Setup container */
-
 .card {
     display: flex;
     flex-direction: column;
@@ -43,7 +40,6 @@ IF I INCREASE THE HEIGHT, THE TOP POSITIONING IS OFF FOR EVERYTHING */
     border: 1px solid black;
 }
 
-
 /* Setup items in container */
 .hero-image {
     width: fit-content; 
@@ -51,11 +47,7 @@ IF I INCREASE THE HEIGHT, THE TOP POSITIONING IS OFF FOR EVERYTHING */
     border-radius: 12.5px;   
 } 
 
-/* NEED HELP TO BETTER UNDERSTAND HOW TO SIZE AND ISOLATE THIS IMAGE 
-WITH FLEXBOX SO THAT THE IMAGE DOESN'T KEEP SHIFTING WHEN I WORK WITH
-THE OTHER HEADINGS AND PARAGRAPH   */
 /* Give card topic a background color, rounded corners, font bolded */
-
 .topic {
     background-color: var(--color-yellow);
     width: fit-content;
@@ -71,7 +63,6 @@ h2:hover {
 }
 
 /* Style publishing date */
-
 .date-published {
     font-weight:bold;
     margin: 15px 20px 0 20px;
@@ -79,41 +70,35 @@ h2:hover {
 }
 
 /* Size and position heading */
-
 h2 {
     margin: 18px 0 0px 20px;
     font-weight: 800;
 }
 
 /* Align paragraph */
-
 .content {
     margin: 20px 0 0 20px;
 }
 
-
 /* Use flex to align profile pic and name */
-
 .avatar {
     display: flex;
     align-items: center;
     margin: 20px 0 0 20px;
 }
 
-
 /* Resize profile pic */
-
 .avatar-image {
     height: 60%;
 }
 
 /* Make name bolder and position */
-
 .avatar-name {
     font-weight: 800;
     padding: 15px;
 }
 
+/* Set for resizing screen */
 @media only screen and (min-width: 320px) and (max-width:720px) {
     .card {
         margin: 25% 12%;
