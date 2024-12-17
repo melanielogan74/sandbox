@@ -1,5 +1,5 @@
 /* Page font */
-@import url('@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500..800;1,500..800&display=swap');');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500..800;1,500..800&display=swap');
 
 /* Reset CSS */
 * {
@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Global values for font and colors */
 :root {
     --body-font: Figtree, sans-serif;
@@ -21,16 +22,113 @@
 body {
     background-color: var(--color-yellow);
     color: var(--color-dkgray);
+    font-family: var(--body-font);
+   
 }
 
+/*TROUBLING INCREASING THE HEIGHT OF THE CARD. BECAUSE FLEXBOX IS USED,
+IF I INCREASE THE HEIGHT, THE TOP POSITIONING IS OFF FOR EVERYTHING */
 /* Setup container */
 
-/* Setup items in container */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% 38%;
+    background-color: var(--color-white);
+    width: 375px;
+    height: 520px;
+    border-radius: 25px;
+    box-shadow: 10px 10px var(--color-dkgray);
+    border: 1px solid black;
+}
 
+
+/* Setup items in container */
+.hero-image {
+    width: fit-content; 
+    margin: 20px;
+    border-radius: 12.5px;   
+} 
+
+/* NEED HELP TO BETTER UNDERSTAND HOW TO SIZE AND ISOLATE THIS IMAGE 
+WITH FLEXBOX SO THAT THE IMAGE DOESN'T KEEP SHIFTING WHEN I WORK WITH
+THE OTHER HEADINGS AND PARAGRAPH   */
+/* Give card topic a background color, rounded corners, font bolded */
+
+.topic {
+    background-color: var(--color-yellow);
+    width: fit-content;
+    font-weight: 800;
+    padding: 5px 15px;
+    border-radius: 6.25px;
+    margin: 7px 0 0 20px;
+}
+
+/* Hover */
+h2:hover {
+    color: var(--color-yellow);
+}
+
+/* Style publishing date */
+
+.date-published {
+    font-weight:bold;
+    margin: 15px 20px 0 20px;
+    width: fit-content;
+}
+
+/* Size and position heading */
+
+h2 {
+    margin: 18px 0 0px 20px;
+    font-weight: 800;
+}
+
+/* Align paragraph */
+
+.content {
+    margin: 20px 0 0 20px;
+}
+
+
+/* Use flex to align profile pic and name */
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 20px;
+}
+
+
+/* Resize profile pic */
+
+.avatar-image {
+    height: 60%;
+}
+
+/* Make name bolder and position */
+
+.avatar-name {
+    font-weight: 800;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:720px) {
+    .card {
+        margin: 25% 12%;
+    }
+}
+ 
 /* Attribution styling */
 .attribution { 
-    font-size: .6875rem; 
-    text-align: center; 
+    font-size: 1rem; 
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .attribution a { 
