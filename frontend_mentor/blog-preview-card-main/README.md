@@ -16,9 +16,9 @@ Files for this particular project can be found in the sandbox repo under fronten
 ### Screenshot
 Below are screenshots of my solution for desktop and mobile.
 
-![Desktop View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/blog-preview-card-main/images/desktop-view-screenshot.png)
+![Desktop View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/blog-preview-card-main/assets/images/desktop-view-screenshot.png)
 
-![Mobile View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/blog-preview-card-main/images/mobile-view-screenshot.png)
+![Mobile View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/blog-preview-card-main/assets/images/mobile-view-screenshot.png)
 
 
 ### Links
