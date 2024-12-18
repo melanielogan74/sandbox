@@ -1,1 +1,58 @@
 /* Default page font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global variables */
+:root {
+    
+    --body-font: Inter, sans-serif;
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-ltgrey: hsl(0, 0%, 20%);
+    --color-midgrey: hsl(0, 0%, 12%);
+    --color-dkgrey: hsl(0, 0%, 8%);
+   
+}
+
+body {
+    background-image: url("./assets/images/black-abstract-background.png");
+    background-size: 500%;
+    font-family: Inter, san sans-serif;
+}
+
+p {
+    font-size: 0.875rem;
+}
+/* Profile styling */
+main {
+    position: relative;
+    text-align: center;
+    color: var(--color-white);
+}
+
+#phone-background {
+    width:25%;
+}
+
+.developer-info {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
