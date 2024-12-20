@@ -1,4 +1,4 @@
-/* Default page font */
+/* Import default font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&display=swap');
 
 /* Reset CSS */
@@ -10,47 +10,120 @@
 
 /* Global variables */
 :root {
-    
-    --body-font: Inter, sans-serif;
-    --color-green: hsl(75, 94%, 57%);
-    --color-white: hsl(0, 0%, 100%);
-    --color-ltgrey: hsl(0, 0%, 20%);
-    --color-midgrey: hsl(0, 0%, 12%);
-    --color-dkgrey: hsl(0, 0%, 8%);
-   
+    --font: Inter, sans-serif;
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --ltgrey: hsl(0, 0%, 50%);
+    --midgrey: hsl(0, 0%, 12%);
+    --dkgrey: hsl(0, 0%, 8%);
 }
 
+/* Add flex to center container on page */
 body {
-    background-image: url("./assets/images/black-abstract-background.png");
-    background-size: 500%;
-    font-family: Inter, san sans-serif;
+    font-family: var(--font);
+    background-image: url("./assets/images/page-background.png");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container and profile styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(./assets/images/cell-phone-background.png);
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 640px; 
+    border-radius: 25px;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 75px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 550;
+    color: var(--green);
 }
 
 p {
-    font-size: 0.875rem;
+    font-size: 14px;
+    font-weight: 600;
 }
-/* Profile styling */
-main {
-    position: relative;
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile img {
+    margin-bottom: 10px;
+}
+
+.profile h2, p {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    background-color: var(--midgrey);
+    margin-bottom: 15px;
+    padding: 10px 0;
+    width: 200px;
+    height: 40px;
+    list-style: none;
     text-align: center;
-    color: var(--color-white);
+    border-radius: 10px;
+    font-size: 14px;
+
 }
 
-#phone-background {
-    width:25%;
+a:link {
+    text-decoration: none; 
+    color: var(--white);
+    font-weight: 500;
 }
 
-.developer-info {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+a:visited {
+    text-decoration: none; 
+    color: var(--ltgrey);
+    font-weight: 500;
+  }
+
+li:hover {
+    background-color: var(--green);
 }
 
-/* Attribution */
+li:hover a {
+    color: var(--dkgrey);
+}
+
+/* Credits */
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.875rem;
+    color: var(--ltgrey); 
     text-align: center; 
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .attribution a { 
