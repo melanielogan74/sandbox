@@ -1,14 +1,3 @@
-/* Custom fonts */
-@font-face {
-    font-family: "Outfit";
-    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
-}
-
-@font-face {
-    font-family: "YoungSerif";
-    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
-}
-
 /* Reset CSS */
 * {
     margin: 0;
@@ -35,155 +24,114 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 hr {
-    margin: 20px 0 20px;
+    margin: 20px 0;
 }
 
 /* Container for recipe card */
 .container {
     background-color: var(--white);
-    max-width: 720px;
-    max-height: 1660px;
+    max-width: 100%;
+    width: 720px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    margin-top: 100px;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
 }
- 
+
 /* Introduction styling */
 .introduction {
     padding-bottom: 30px;
     line-height: 1.5;
+    text-align: center;
 }
 
- .introduction img {
-    width: inherit;
+.introduction img {
+    width: 100%;
+    height: auto;
     border-radius: 15px;
     margin-top: 25px;
 }
 
 .introduction h1 {
     font-family: var(--young-serif); 
-    font-size: 2.5rem; 
+    font-size: 2rem; 
     font-weight: lighter;
-    padding: 20px 0 20px 0; 
+    padding: 20px 0; 
 }
 
-/* Preparation styling */
-.preparation {
-    background-color: var(--ltrose);
-    border-radius: 12.5px;
-    padding: 15px 20px 15px 20px;
-    margin-bottom: 10px;
+/* Section styling */
+section {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 650px;
 }
 
-.preparation header {
-    color: var(--dkrose);
-    font-size: 1.125rem;    
-    font-weight: 700;
-    padding-bottom: 12px;   
-}
-
-.preparation li {
-    margin-left: 30px;
-}
-
-.preparation li::marker {
-    color: var(--dkrose);
-}
-
-/* Ingredients styling */
-.ingredients h2 {
-    padding: 20px 0;
+header, h2 {
     font-family: var(--young-serif);
     font-size: 1.5rem;
-    font-weight: lighter;
+    color: var(--brown);
 }
 
-.ingredients li {
-    margin-left: 20px;
-}
-
-/* Instructions styling */
-.instructions {
-    margin: 0 50px;
+p, li {
+    font-family: var(--outfit);
     line-height: 1.5;
 }
 
-.instructions h2 {
-    font-family: var(--young-serif);
-    padding: 5px 0 15px 0;
+/* Responsive list styling */
+li {
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
-.instructions li {
-    margin-left: 20px;
+li::marker {
+    color: var(--brown);
 }
 
-/* Nutrition styling */
-.nutrition h2 {
-    font-family: var(--young-serif);
-    padding-top: 10px;
-}
-
-.nutrition p, .nutri-facts {
-    padding-top: 20px;
-}
-
-/* Styling for nutrition grid */
+/* Responsive grid for nutrition facts */
 .nutri-facts {
     display: grid;
-    grid-template-columns: auto auto;
-}
-
-.nutri-item, .nutri-num {
-    text-align: left;
-    padding: 15px 0 15px 30px;
- }
-
-.nutri-item:not(:nth-child(1), :nth-child(2)) {
-    border-top: 1px solid lightgrey;
- }
-
- .nutri-num:not(:nth-child(1), :nth-child(2)) {
-    border-top: 1px solid lightgrey;
- }
-
-/*Styling for multiple sections and tags */
- /* Brown font, bold text for headings, bullets, and numbers */
-.ingredients h2, .instructions h2, .nutrition h2, .nutri-num,
-.ingredients li::marker, .instructions li::marker  {
-    color: var(--brown);
-    font-weight: 700;
-}
-
-/* Use Outfit font for introduction paragraph, nutrition section, and all li's */
-.introduction p, .preparation, .nutrition, li  {
-    font-family: var(--outfit);
-}
-
-/* Size the section containers */
-.introduction, .preparation, .ingredients, .instructions, .nutrition {
-    width: 650px;
-}
-
-/* List styling for all */
-li {
-    padding: 0 0 10px 15px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-top: 20px;
+    width: 100%;
 }
 
 /* Credits */
 .attribution { 
-    font-size: .6875rem; 
+    font-size: 0.875rem; 
     text-align: center;
     font-family: var(--outfit); 
-    font-size: 0.875rem;
     padding-top: 10px;
 }
     
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .introduction h1 {
+        font-size: 1.8rem;
+    }
+
+    header, h2 {
+        font-size: 1.25rem;
+    }
+
+    .nutri-facts {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
