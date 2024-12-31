@@ -11,6 +11,10 @@
 ## Overview
 This challenge uses HTML and CSS to build a product preview card that looks as closely to the example design as possible. 
 
+Users should be able to:
+- View the optimal layout depending on their device's screen size
+- See hover (desktop) and focus states (desktop, mobile) for interactive elements
+
 ### Screenshot
 Below are screenshots of my solution for desktop and mobile.
 
