@@ -161,11 +161,11 @@
 
   @media (orientation: landscape) {
     .card {
-      grid-template-columns: 1 fr 1fr; /* Two column layout */
+      grid-template-columns: 1fr 1fr; /* Two column layout */
     }
 
     .content {
-      padding: 1.45rem 2rem;
+      padding: 1rem 2rem;
     }
   }
 }
