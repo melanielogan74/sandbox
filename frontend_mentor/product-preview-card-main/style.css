@@ -154,7 +154,7 @@
 }
 
 /* Portrait mode */
-@media (orientation: portrait) {
+/* @media (orientation: portrait) {
   .card {
     max-width: 90%;
     max-height: 100vh;
@@ -170,10 +170,10 @@
   .content {
     padding: 1.5rem;
   }
-}
+} */
 
 /* Landscape Mode */
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
   .card {
     max-width: 80%;
     max-height: 85vh;
@@ -194,4 +194,4 @@
     flex-direction: column;
     justify-content: center;
   }
-}
+} */
