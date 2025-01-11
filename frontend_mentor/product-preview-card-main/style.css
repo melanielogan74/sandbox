@@ -154,7 +154,7 @@
     .card {
       max-width: 90%;
       max-height: 90vh;
-      grid-template-rows: auto 1fr;
+      grid-template-column: 1fr;
     }
 
     picture img{
@@ -162,7 +162,7 @@
       height: auto;
       max-height: 50vh;
     }
-    
+
     .content {
       padding: 1.5rem;
     }
