@@ -150,7 +150,9 @@
     }
 
   @media (orientation: portrait) {
-   
+   body {
+    height: 100vh;
+   }
     
     .card {
       grid-template-columns: 1fr; /* Single column layout */
