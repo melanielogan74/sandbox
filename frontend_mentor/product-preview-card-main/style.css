@@ -150,17 +150,22 @@
     }
 
   @media (orientation: portrait) {
+    body {
+      height: 100vh;
+    }
+    
     .card {
       grid-template-columns: 1fr; /* Single column layout */
-      max-height: 200px;
+      max-height: 90vh;
     }
 
-    img {
-      max-height: 100px;
-   }
-
     .content {
-      padding: 2rem;
+      padding: 1.5rem;
+    }
+
+    /* Keep footer on bottom without scrolling */
+    .attribution {
+      margin-top: auto;
     }
   }
 
