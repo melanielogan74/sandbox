@@ -109,8 +109,8 @@
   button::before  {
     content: url("./images/icon-cart.svg");
     position: relative;
-    padding-right: 7px;
-    top: 2px;
+    padding-right: 0.4375rem;
+    top: 0.125rem;
   }  
   
   button:hover {
@@ -118,12 +118,10 @@
   }
 
   button:focus {
-    border: 1px solid var(--color-dkcyan);
+    border: 2px solid var(--color-dkcyan);
     color: var(--color-ltcyan);
-    background-color: red;
-    button::before {
-      content: none;
-    }
+    background-color: transparent;
+    content: url("./images/icon-cart-focus.svg");
   }
   
   /* Attribution Styling */
