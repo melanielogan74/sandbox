@@ -18,9 +18,9 @@ Users should be able to:
 ### Screenshot
 Below are screenshots of my solution for desktop and mobile.
 
-![Desktop View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/product-preview-card-main/assets/images/desktop-view-screenshot.png)
+![Desktop View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/product-preview-card-main/images/desktop-view-screenshot.png)
 
-![Mobile View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/product-preview-card-main/assets/images/mobile-view-screenshot.png)
+![Mobile View Screenshot] (https://melanielogan74.github.io/sandbox/frontend_mentor/product-preview-card-main/images/mobile-view-screenshot.png)
 
 
 ### Links
