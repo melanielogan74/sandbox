@@ -116,7 +116,7 @@
  
 
   button:focus {
-    border: 1px solid var(--dkblue);
+    border:blueviolet;
   }
   
   /* Attribution Styling */
