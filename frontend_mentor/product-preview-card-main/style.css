@@ -148,6 +148,12 @@
     .content {
       padding: 1.45rem;
     }
+
+    picture img {
+      width: 100%;
+      height: auto;
+      max-height: 50vh;
+    }
 }
 
 /* Portrait mode */
