@@ -155,7 +155,8 @@
    }
     
     .card {
-      grid-template-columns: 1fr; /* Single column layout */
+      
+      max-height: 90vh;
     }
 
     .content {
