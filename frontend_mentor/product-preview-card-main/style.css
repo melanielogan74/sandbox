@@ -111,7 +111,8 @@
     position: relative;
     padding-right: 7px;
     top: 2px;
-}  
+  }  
+
   button:hover {
     background-color: var(--color-dkcyan);
   }
@@ -137,4 +138,5 @@
     .content {
       padding: 1.45rem;
     }
+
 }
