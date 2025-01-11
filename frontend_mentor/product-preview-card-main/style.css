@@ -154,11 +154,7 @@
       grid-template-columns: 1fr; /* Single column layout */
     }
 
-    picture img {
-      width: 50%;
-      height: 100vh;
-      display: block;
-    }
+   
 
     .content {
       padding: 2rem;
