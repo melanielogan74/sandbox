@@ -118,7 +118,8 @@
   }
 
   button:focus {
-    background-color: var(--color-grayblue);
+    border: 1px solid var(--color-dkcyan);
+    color: var(--color-ltcyan);
   }
   
   /* Attribution Styling */
