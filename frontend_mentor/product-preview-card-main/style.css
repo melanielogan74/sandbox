@@ -113,8 +113,10 @@
     top: 2px;
   }  
 
-  button:hover {
-    background-color: var(--color-dkcyan);
+ 
+
+  button:focus {
+    border: 1px solid var(--dkblue);
   }
   
   /* Attribution Styling */
@@ -139,4 +141,7 @@
       padding: 1.45rem;
     }
 
+    button:hover {
+      background-color: var(--color-dkcyan);
+    }
 }
