@@ -171,3 +171,27 @@
     padding: 1.5rem;
   }
 }
+
+/* Landscape Mode */
+@media (orientation: landscape) {
+  .card {
+    max-width: 80%;
+    max-height: 85vh;
+    grid-template-column: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  picture img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
