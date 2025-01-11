@@ -2,54 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
+  <title>Product Preview Card</title>
 </head>
 <body>
   <main class="container">
     <!-- Product image -->
     <picture>
-      <source media="(min-width: 600px)"  height="536px" srcset="./images/image-product-desktop.jpg">
-      <source media="(max-width: 599px)" width="350px" height="245px" srcset="./images/image-product-mobile.jpg">
-      <img src="./images/image-product-mobile.jpg" alt="Chanel perfume bottle" />
+      <source media="(min-width: 600px)" srcset="./images/image-product-desktop.jpg">
+      <source media="(max-width: 599px)" srcset="./images/image-product-mobile.jpg">
+      <img src="./images/image-product-mobile.jpg" alt="Chanel perfume bottle">
     </picture>
-   
+
     <!-- Content area -->
     <section class="content">
-      <!-- Topic heading -->
-      <div class="product">
-        <p class="topic">PERFUME</p>
-
-        <!-- Product heading and description -->
-        <h2>Gabrielle Essence Eau De Parfum</h2>
-
-        <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.</p>
-      </div>
-
-      <!-- Price with discount and without -->
+      <p class="topic">PERFUME</p>
+      <h2>Gabrielle Essence Eau De Parfum</h2>
+      <p class="description">A floral, solar, and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
       <div class="price">
         <p class="price-discount">$149.99</p>
         <p class="price-full">$169.99</p>
       </div>
-
-      <!-- Button to add product to cart -->
       <button>Add to Cart</button>
     </section>
   </main>
-
-  <!-- Footer credits -->
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Melanie Logan</a>.
-  </div>
+  </footer>
 </body>
 </html>
