@@ -116,9 +116,9 @@
   button:hover {
     background-color: var(--color-dkcyan);
   }
-  
+
   button:focus {
-    background-color: red;
+    background-color: var(--color-grayblue);
   }
   
   /* Attribution Styling */
