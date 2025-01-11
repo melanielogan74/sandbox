@@ -150,15 +150,19 @@
     }
 
   @media (orientation: portrait) {
-   body {
-    height: 100vh;
-   }
-    
-    .card {
       
+    .card {
+      max-width: 90%;
       max-height: 90vh;
+      grid-template-rows: auto 1fr;
     }
 
+    picture img{
+      width: 100%;
+      height: auto;
+      max-height: 50vh;
+    }
+    
     .content {
       padding: 1.5rem;
     }
