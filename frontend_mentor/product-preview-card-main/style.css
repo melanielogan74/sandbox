@@ -41,15 +41,12 @@
     border-radius: 10px;
     background-color: var(--color-white);
     overflow: hidden;
-    max-width: 100%;
-   /*  max-width: 600px; */
+    max-width: 600px;
   }
   
   picture img {
     width: 100%;
     display: block;
-    height: auto; /* include this row and the next to help portrait/landscape */
-    object-fit: cover;
   }
   
   .content {
