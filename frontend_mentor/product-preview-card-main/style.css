@@ -154,6 +154,10 @@
       grid-template-columns: 1fr; /* Single column layout */
     }
 
+    picture img {
+      height: 50%;
+    }
+
     .content {
       padding: 2rem;
     }
@@ -161,7 +165,7 @@
 
   @media (orientation: landscape) {
     .card {
-      grid-template-columns: 1fr 1fr; /* Two column layout */
+      grid-template-columns: 1 fr 1fr; /* Two column layout */
     }
 
     .content {
