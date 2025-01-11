@@ -148,4 +148,24 @@
     .content {
       padding: 1.45rem;
     }
+
+  @media (orientation: portrait) {
+    .card {
+      grid-template-columns: 1fr; /* Single column layout */
+    }
+
+    .content {
+      padding: 2rem;
+    }
+  }
+
+  @media (orientation: landscape) {
+    .card {
+      grid-template-columns: 1 fr 1fr; /* Two column layout */
+    }
+
+    .content {
+      padding: 1rem 2rem;
+    }
+  }
 }
