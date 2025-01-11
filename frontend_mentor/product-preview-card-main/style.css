@@ -120,7 +120,8 @@
   button:focus {
     border: 1px solid var(--color-dkcyan);
     color: var(--color-ltcyan);
-    background-color: transparent;
+    background-color: red;
+    content: none;
   }
   
   /* Attribution Styling */
