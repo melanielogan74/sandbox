@@ -121,7 +121,10 @@
     border: 2px solid var(--color-dkcyan);
     color: var(--color-ltcyan);
     background-color: transparent;
-    content: url("./images/icon-cart-focus.svg");
+  }
+
+  button:focus::before {
+    content: none;
   }
   
   /* Attribution Styling */
