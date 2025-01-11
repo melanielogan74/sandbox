@@ -41,12 +41,15 @@
     border-radius: 10px;
     background-color: var(--color-white);
     overflow: hidden;
-    max-width: 600px;
+    max-width: 100%;
+   /*  max-width: 600px; */
   }
   
   picture img {
     width: 100%;
     display: block;
+    height: auto; /* include this row and the next to help portrait/landscape */
+    object-fit: cover;
   }
   
   .content {
@@ -148,38 +151,23 @@
     .content {
       padding: 1.45rem;
     }
+}
 
-  @media (orientation: portrait) {
-      
-    .card {
-      max-width: 90%;
-      max-height: 90vh;
-      grid-template-column: 1fr;
-    }
-
-    picture img{
-      width: 100%;
-      height: auto;
-      max-height: 50vh;
-    }
-
-    .content {
-      padding: 1.5rem;
-    }
-
-    
-    .attribution {
-      margin-top: auto;  /* Keep footer on bottom without scrolling */
-    }
+/* Portrait mode */
+@media (orientation: portrait) {
+  .card {
+    max-width: 90%;
+    max-height: 90vh;
+    grid-template-rows: auto 1fr;
   }
 
-  @media (orientation: landscape) {
-    .card {
-      grid-template-columns: 1 fr 1fr; /* Two column layout */
-    }
+  picture img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+  }
 
-    .content {
-      padding: 1rem 2rem;
-    }
+  .content {
+    padding: 1.5rem;
   }
 }
