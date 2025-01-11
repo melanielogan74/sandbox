@@ -12,8 +12,8 @@
   :root {
     --font-montserrat: 'Montserrat', sans-serif;
     --font-fraunces: 'Fraunces', serif;
-    --color-dkcyan: hsl(158, 36%, 37%);
-    --color-ltcyan: hsl(159, 72%, 19%);
+    --color-ltcyan: hsl(158, 36%, 37%);
+    --color-dkcyan: hsl(159, 72%, 19%);
     --color-cream: hsl(30, 38%, 92%);
     --color-dkblue: hsl(212, 21%, 14%);
     --color-grayblue: hsl(228, 12%, 48%);
@@ -87,7 +87,7 @@
     font-family: var(--font-fraunces);
     font-size: 2rem;
     font-weight: bold;
-    color: var(--color-dkcyan);
+    color: var(--color-ltcyan);
   }
   
   .price-full {
@@ -97,7 +97,7 @@
   
   button {
     width: 100%;
-    background-color: var(--color-dkcyan);
+    background-color: var(--color-ltcyan);
     color: var(--color-white);
     font-size: 1rem;
     border: none;
@@ -113,7 +113,7 @@
     top: 2px;
 }  
   button:hover {
-    background-color: var(--color-ltcyan);
+    background-color: var(--color-dkcyan);
   }
   
   /* Attribution Styling */
