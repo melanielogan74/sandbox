@@ -23,7 +23,8 @@ body {
     background-color: var(--color-cream);
     color: var(--color-dkblue);
     display: grid;
-    place-items: center;
+    grid-template-rows: 1fr auto; /* Content takes up most space, footer stays at bottom */
+    min-height: 100vh;
     padding: 2rem;
 }
 
@@ -109,6 +110,7 @@ button:hover {
     text-align: center;
     font-size: 0.75rem;
     margin-top: 1rem;
+    color: var(--color-grayblue);
 }
 
 .attribution a {
