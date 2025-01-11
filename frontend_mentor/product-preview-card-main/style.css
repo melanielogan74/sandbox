@@ -152,11 +152,11 @@
   @media (orientation: portrait) {
     .card {
       grid-template-columns: 1fr; /* Single column layout */
-      max-height: fit-content;
+      max-height: 200px;
     }
 
     img {
-      max-height: 300px;
+      max-height: 100px;
    }
 
     .content {
