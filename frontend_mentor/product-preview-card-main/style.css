@@ -112,11 +112,13 @@
     padding-right: 7px;
     top: 2px;
   }  
-
- 
-
+  
+  button:hover {
+    background-color: var(--color-dkcyan);
+  }
+  
   button:focus {
-    border:blueviolet;
+    background-color: red;
   }
   
   /* Attribution Styling */
@@ -139,9 +141,5 @@
   
     .content {
       padding: 1.45rem;
-    }
-
-    button:hover {
-      background-color: var(--color-dkcyan);
     }
 }
