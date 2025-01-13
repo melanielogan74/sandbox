@@ -92,16 +92,12 @@
   
   .price-full {
     text-decoration: line-through;
-    font-size: .875rem;
-    width: 50px;
-   
-}
-
-/* Button and icon styling */
-button {
-    background-color: var(--color-dkcyan);
-    border: none;
-    font-size: 1rem;
+    color: var(--color-grayblue);
+  }
+  
+  button {
+    width: 100%;
+    background-color: var(--color-ltcyan);
     color: var(--color-white);
     font-size: 1rem;
     border: none;
@@ -127,13 +123,12 @@ button {
     background-color: transparent;
   }
 
-button:hover {
-    background-color: var(--color-ltcyan);
-}
-
-/* Credit styling in footer */
-.attribution { 
-    font-family: var(--font-montserrat);
+  button:focus::before {
+    content: none;
+  }
+  
+  /* Attribution Styling */
+  .attribution {
     font-size: 0.75rem;
     text-align: center;
     margin-top: 1rem;
@@ -153,32 +148,47 @@ button:hover {
     .content {
       padding: 1.45rem;
     }
-
-    picture img {
-      width: 100%;
-      height: auto;
-      max-height: 90vh;
-    }
-
-    img {
-        border-radius: 10px 0 0 10px;
-    }
-
-    .topic {
-        padding-top: 15px;
-    }
-
-    h2 {
-        font-size: 2.75em;
-        word-wrap: break-word;
-        padding-top: 20px;
-    }
-  
-    .description, .price {
-        padding-top: 10px;
-    }
-
-    button {
-        margin-top: 20px;
-    }
 }
+
+/* Portrait mode */
+/* @media (orientation: portrait) {
+  .card {
+    max-width: 90%;
+    max-height: 100vh;
+    grid-template-rows: auto 1fr;
+  }
+
+  picture img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh;
+  }
+
+  .content {
+    padding: 1.5rem;
+  }
+} */
+
+/* Landscape Mode */
+/* @media (orientation: landscape) {
+  .card {
+    max-width: 80%;
+    max-height: 85vh;
+    grid-template-column: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  picture img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+} */
