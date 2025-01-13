@@ -92,7 +92,6 @@ p {
     text-decoration: line-through;
     font-size: .875rem;
     width: 50px;
-   
 }
 
 /* Button and icon styling */
@@ -117,8 +116,9 @@ button:focus {
     background-color: var(--color-ltcyan);
 }
 
-button:hover {
-    background-color: var(--color-ltcyan);
+a {
+    color: var(--color-white);
+    text-decoration: none;
 }
 
 /* Credit styling in footer */
@@ -170,5 +170,26 @@ button:hover {
 
     button {
         margin-top: 20px;
+    }
+
+    button:link {
+        background-color: var(--color-dkcyan);
+    }
+
+    button:visited {
+        background-color: red;
+    }
+
+    button:hover {
+        background-color: var(--color-ltcyan);
+    }
+
+    button:active {
+        background-color: pink;
+    }
+
+    a {
+        color: var(--color-white);
+        text-decoration: none;
     }
 }
