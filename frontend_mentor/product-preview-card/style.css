@@ -21,7 +21,29 @@
     --color-white: hsl(0, 0%, 100%);
   }
 
-/* Footer for attribution */
+/* Container styling */
+main {
+    display: grid;
+}
+
+/* Picture styling if needed; THIS IS A CHILD OF THE GRID IN MAIN */
+
+/* Content styling; .CONTENT IS A CHILD OF THE GRID IN MAIN */
+/* PRODUCT-DESCR AND PRODUCT-PRICE ARE CHILDREN OF THE FLEXBOX .CONTENT */
+.content {
+    display: flex;
+}
+
+/* Price styling */
+/* THE H2 AND H3 ARE CHILDRE OF THE GRID .PRODUCT-PRICE */
+.product-price {
+    display: grid;
+}
+
+/* Button styling */
+/* THIS IS A CHILD OF FLEXBOX .CONTENT */
+
+/* Footer for attribution; THIS IS A CHILD OF THE GRID IN MAIN */
 .attribution { 
     font-size: 11px; 
     text-align: center; 
