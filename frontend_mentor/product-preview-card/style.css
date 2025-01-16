@@ -22,16 +22,27 @@
   }
 
 /* Container styling */
+/* THERE IS 1 COLUMN AND 3 ROWS IN THIS DESIGN THIS IS WHY
+   GRID TEMPLATE COLUMNS HAS ONE VALUE AND GRID TEMPLATE ROWS
+   HAS 3 VALUES. THESE VALUES MAY NEED UPDATING AFTER DETERMINING
+   IF THE SIZING DOES NOT WORK AS EXPECTED */
 main {
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
 }
 
 /* Picture styling if needed; THIS IS A CHILD OF THE GRID IN MAIN */
 
+
 /* Content styling; .CONTENT IS A CHILD OF THE GRID IN MAIN */
 /* PRODUCT-DESCR AND PRODUCT-PRICE ARE CHILDREN OF THE FLEXBOX .CONTENT */
+/* FLEX DIRECTION USED TO MAKE THE HEADINGS, DESCRIPTIONS, PRICES, ETC.
+ALIGN IN A COLUMN. FLEX START LEFT JUSTIFIES THE CONTENT */
 .content {
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* Price styling */
