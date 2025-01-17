@@ -110,7 +110,7 @@
     content: url("./images/icon-cart.svg");
     position: relative;
     padding-right: 0.4375rem;
-    top: 0.125rem;
+    /* top: 0.125rem; */
   }  
   
   button:hover {
