@@ -70,7 +70,7 @@
   }
   
   .description {
-    margin: 1.75rem 0;
+    margin: 1.75rem 0 1.5rem 0;
     line-height: 1.5;
     color: var(--color-grayblue);
   }
@@ -78,7 +78,7 @@
   .price {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 1.5rem;
+    gap: 1.25rem;
     align-items: center;
     margin-bottom: 1rem;
   }
@@ -110,7 +110,7 @@
     content: url("./images/icon-cart.svg");
     position: relative;
     padding-right: 0.4375rem;
-    /* top: 0.125rem; */
+    top: 0.125rem;
   }  
   
   button:hover {
@@ -118,7 +118,7 @@
   }
 
   button:focus {
-    border: 2px solid var(--color-dkcyan);
+    border: 1.5px solid var(--color-dkcyan);
     color: var(--color-ltcyan);
     background-color: transparent;
   }
