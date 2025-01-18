@@ -31,7 +31,9 @@
   .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 360px;
+    height: 1500px;
     gap: 30px;
   }
 
