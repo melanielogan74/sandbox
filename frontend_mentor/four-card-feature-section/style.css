@@ -29,12 +29,12 @@
     padding-top: 75px;
   }
 
-  .container {
+  .card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 325px;
-    gap: 30px;
+    
   }
 
   .overview {
@@ -124,14 +124,20 @@
 
   /* Resize for tablets and desktop */
   @media screen and (min-width: 601px) {
+   
+    .main-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1300px;
+      height: 100vh;
+      border: 2px dotted limegreen;
+    }
 
-   /* Use grid to align each item: overview, cards, footer */
-    .container {
+    .card-container {
       display: grid;
       grid-template-areas: 'supervisor', 'team karma', 'calculator';
       grid-gap: 20px;
-      max-width: 1300px;
-      height: 100vh;
       border: 2px dotted hotpink;
     }
 
@@ -152,6 +158,6 @@
     }
 
     .attribution {
-      border: 2px dotted red;
+      border: 2px dotted purple;
     }
   }
