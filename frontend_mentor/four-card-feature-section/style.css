@@ -24,16 +24,16 @@
     font-family: var(--font-poppins);
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    padding-top: 75px;
   }
 
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 360px;
-    height: 1500px;
+    max-width: 325px;
     gap: 30px;
   }
 
@@ -115,6 +115,7 @@
   .attribution { 
     font-size: 11px; 
     text-align: center; 
+    padding-top: 50px;
   }
 
   .attribution a { 
