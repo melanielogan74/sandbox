@@ -29,7 +29,7 @@
     padding-top: 75px;
   }
 
-  .main-container {
+  .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,23 +125,9 @@
   /* Resize for tablets and desktop */
   @media screen and (min-width: 601px) {
    
-    /* .main-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      max-width: 1300px;
-      height: 100vh;
-      border: 2px dotted limegreen;
-    }
-
-    .card-container {
+   .container {
       display: grid;
-      grid-template-areas: 'supervisor', 'team karma', 'calculator';
-      grid-gap: 20px;
-      border: 2px dotted hotpink;
-    } */
-    .main-container {
-      display: grid;
+      border: 5px solid blue;
       grid-template-areas: 'overview overview overview'
                            'supervisor team calculator'
                            'supervisor karma calculator';
