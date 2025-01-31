@@ -12,8 +12,8 @@
 This challenge uses HTML and CSS to build a four card feature section that is responsive. The design was created to be as close to the example mobile and desktop designs as possible. 
 
 Users should be able to:
-- Resize the device screen for mobile and desktop with the mobile view showing the cards as a single column, the desktop view showing the cards in 3 columns (1 card on left, 2 cards in middle, 1 card in right)
-- 
+- Resize the device screen for mobile and desktop with the mobile view showing the cards as a single column, the desktop view showing the cards in 3 columns (1 card on left, 2 cards in middle, 1 card on right)
+
 
 ### Screenshot
 Below are screenshots of my solution for desktop and mobile.
