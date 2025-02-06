@@ -41,6 +41,7 @@ body {
     border: 3px solid hotpink;
     grid-template-areas: 'daniel daniel jonathan kira'
                         'jeanette patrick patrick kira';
+    gap: 25px;
 }
 
 .card-daniel{
