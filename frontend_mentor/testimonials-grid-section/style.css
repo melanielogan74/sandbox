@@ -1,0 +1,72 @@
+/* Import default font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global variables */
+:root {
+    --barlow-font: 'Barlow', sans-serif;
+    --violet-color: hsl(263, 55%, 52%);
+    --dkgrayblue-color: hsl(217, 19%, 35%);
+    --dkblackblue-color: hsl(219, 29%, 14%);
+    --white-color: hsl(0, 0%, 100%);
+    --ltgray-color: hsl(0, 0%, 81%);
+    --ltgrayblue-color: hsl(210, 46%, 95%);
+}
+
+body {
+    background-color: var(--ltgrayblue-color);
+    font-family: var(--barlow-font);
+    color: var(--dkblackblue-color);
+}
+
+/* Main container */ 
+
+/* .container {
+    display: grid;
+    border: 3px solid red;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1440px;
+} */
+
+.container {
+    display: grid;
+    border: 3px solid hotpink;
+    grid-template-areas: 'daniel daniel jonathan kira'
+                        'jeanette patrick patrick kira';
+}
+
+.card-daniel{
+    grid-area: daniel;
+}
+
+.card-jonathan{
+    grid-area: jonathan;
+}
+
+.card-jeanette {
+    grid-area: jeanette;
+}
+
+.card-patrick {
+    grid-area: patrick;
+}
+
+.card-kira {
+    grid-area: kira;
+}
+/* Footer attribution */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
