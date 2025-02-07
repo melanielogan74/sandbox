@@ -84,7 +84,7 @@ img {
     background-size: 25%;
     background-repeat: no-repeat;
     border-radius: 12px;
-    padding: 30px;
+    padding: 40px;
     color: var(--white-color);
     box-shadow: 0 1rem 1.25rem rgb(209, 208, 208);
 }
@@ -102,7 +102,7 @@ img {
     grid-area: jonathan;
     background-color: var(--dkgrayblue-color);
     border-radius: 12px;
-    padding: 30px;
+    padding: 40px;
     color: var(--white-color);
     box-shadow: 0 1rem 1.25rem rgb(209, 208, 208);
 }
@@ -116,7 +116,7 @@ img {
     grid-area: jeanette;
     background-color: var(--white-color);
     border-radius: 12px;
-    padding: 30px;
+    padding: 40px;
     box-shadow: 0 1rem 1.25rem rgb(209, 208, 208);
 }
 
@@ -124,7 +124,7 @@ img {
     grid-area: patrick;
     background-color: var(--dkblackblue-color);
     border-radius: 12px;
-    padding: 30px;
+    padding: 40px;
     color: var(--white-color);
     box-shadow: 0 1rem 1.25rem rgb(209, 208, 208);
 }
@@ -142,7 +142,7 @@ img {
     grid-area: kira;
     background-color: var(--white-color);
     border-radius: 12px;
-    padding: 30px;
+    padding: 40px;
     box-shadow: 0 1rem 1.25rem rgb(209, 208, 208);
 }
 
