@@ -1,0 +1,11 @@
+body {
+
+    /*Set Background for Page */
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Set Default Font and Color*/
+    font: 15px Arial, sans-serif;
+    color: white;
+}
