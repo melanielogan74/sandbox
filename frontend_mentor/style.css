@@ -9,3 +9,9 @@ body {
     font: 15px Arial, sans-serif;
     color: white;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
