@@ -6,6 +6,64 @@
   <title>Lesson 6 Exercises</title>
 </head>
 <body>
-  
+  <script>
+    /* Exercise 6a 
+    let hour = 18; */
+
+    /*Exercise 6b 
+    let hour = 14;
+
+    if (hour >= 6 && hour <= 12){
+      console.log('Good morning!');
+    } else if (hour >= 13 && hour <= 17) {
+      console.log('Good afternoon!');
+    } else {
+      console.log('Good night!');
+    } */
+
+      /*Exercise 6c 
+    let hour = 15;
+    const name = 'Melanie';
+
+    if (hour >= 6 && hour <= 12){
+      console.log(`Good morning, ${name}!`);
+    } else if (hour >= 13 && hour <= 17) {
+      console.log(`Good afternoon, ${name}!`);
+    } else {
+      console.log(`Good night, ${name}!`);
+    }*/
+
+    /* Exercise 6d and 6e 
+      const age = 70;
+      const isHoliday = true;
+
+      if ((age <= 6 || age >= 65)  && !isHoliday) {
+        console.log ('Discount');
+      } else {
+        console.log ('No discount');
+      }*/ 
+
+      /* Exercise 6f thru 6i */
+      let randomNum = Math.random();
+      let result = '';
+      
+      if (randomNum < 0.5) {
+        result = 'heads';
+      } else {
+        result ='tails';
+      }
+
+      const guess = 'heads';
+      console.log (`Your guess is ${guess}. The computer is ${result}.`);
+
+      /*if (guess == result) {
+        console.log('You win!');
+      } else {
+        console.log('You lose!');
+      } */
+
+      /* Exercise 6j */
+      console.log(guess === result ? 'You win!' : 'You lose');
+  </script>
 </body>
 </html>
