@@ -53,17 +53,20 @@
 
        /* Exercise 7g */
        function convertLength(length, from, to) {
-            let result;
+            
+            //Using ternary in place of if/else
+            let result = from === 'miles' && to === 'km' ? length    
+                * 1.6 :from === 'km' && to === 'miles' ? length / 1.6 : length;
 
-            if (from === 'miles' && to === 'km') {
-                result = length * 1.6; 
-                console.log('to km');
-            } else if (from === 'km' && to === 'miles') {
-                result = length / 1.6;
-                console.log ('to miles');
-            } else {
-                result = length;
-            }
+            // Using traditional if/else statement
+            // let result;
+            // if (from === 'miles' && to === 'km') {
+            //     result = length * 1.6;                
+            // } else if (from === 'km' && to === 'miles') {
+            //     result = length / 1.6;            
+            // } else {
+            //     result = length;
+            // }
 
             console.log(`${result} ${to}`);
 
@@ -71,7 +74,7 @@
         }               
      
         convertLength(50,'miles','km');
-        //    convertLength(32,'km','miles');
-        //   convertLength(50,'km','km');
+        //convertLength(32,'km','miles');
+        //convertLength(50,'km','km');
    </script>
 </html>
