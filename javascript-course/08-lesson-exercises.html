@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson 8 Exercises</title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        /* Exercise 8a */
+        // const product = {
+        //     name: 'basketball',
+        //     price: 2095,
+        //     'delivery-time': '3 days'
+        // };
+
+        //console.log(product);
+
+        /* Exercise 8b */
+        // product.price += 500;
+        // console.log(product.price);
+
+        /* Exercise 8c */
+       // console.log(product['delivery-time']);
+
+        /* Exercise 8d */
+        // const product1 = {
+        //     name: 'shoes',
+        //     price: 2000
+        // };
+
+        // const product2 = {
+        //     name: 'handbag',
+        //     price: 5000
+        // };
+        
+        // function comparePrice(product1, product2) {
+          
+        //   if (product1.price > product2.price) {
+        //     // console.log('Shoes cost more than a handbag');
+        //     return product2;
+        //   } else if (product1.price < product2.price) {
+        //     // console.log('Shoes are less than a handbag');
+        //     return product2;
+        //   }
+        // }
+        
+        // console.log(comparePrice(product1, product2));
+
+        /* Exercise 8e */
+        /* To compare objects, it's best to convert to JSON */
+        /* Based on the actual solution to this exercise, it is best
+        to compare the actual items like product3.name === product4.name, etc. instead of using JSON */
+        function isSameProduct(product1, product2) {
+            
+            if (JSON.stringify(product3) === JSON.stringify(product4)) {
+               return true;
+            } else if (JSON.stringify(product3) !== JSON.stringify(product4)) {      
+               return false;
+            }
+        }
+
+        const product3 = {
+            name: 'shirt',
+            price: 2500
+        };
+
+        const product4 = {
+            name: 'shirt',
+            price: 2500
+        };
+
+        console.log(isSameProduct(product3, product4));
+    </script>
+</html>
